@@ -7,6 +7,7 @@ Los pasos están indicados en https://is.docs.wso2.com/en/latest/develop/writing
 * Crear el .jar ejecutando mvn clean install
 * Copiar el .jar al IS, en el directorio /repository/components/lib
 * Añadir al fichero deploiment.toml el pip creado
+  
 `[identity.entitlement.policy_point.pip]
 attribute_designators = [
 "us.dit.pip.EnvironmentAttributeFinder"
